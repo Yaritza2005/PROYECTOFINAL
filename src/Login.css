@@ -1,6 +1,6 @@
 /* Login.css */
 body {
-    background-color: lightblue; /* Fondo celeste para todo el cuerpo de la página */
+    background-color: lightblue;
   }
   
 
@@ -9,8 +9,8 @@ body {
     margin: 50px auto;
     max-width: 300px;
     padding: 50px;
-    background-color: #ff69b4; /* Fondo rosa (por ejemplo) */
-    border: 1px solid #ff69b4; /* Borde rosa (mismo color que el fondo) */
+    background-color: #ff69b4; 
+    border: 1px solid #ff69b4; 
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     
@@ -27,7 +27,7 @@ body {
   
   .form-group label {
     display: block;
-    text-align: left; /* Alinear el texto a la izquierda */
+    text-align: left; 
   }
   
   .form-group input {
@@ -35,12 +35,12 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 5px auto; /* Centrar los campos */
+    margin: 5px auto; 
   }
   
   .login-container button {
-    background-color: #000; /* Fondo negro (mismo color que en el menú) */
-    color: #fff; /* Texto en color blanco */
+    background-color: #000; 
+    color: #fff; 
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
@@ -48,7 +48,7 @@ body {
   }
   
   .login-container button:hover {
-    background-color: #444; /* Fondo negro más oscuro (por ejemplo) al pasar el mouse */
+    background-color: #444; 
   }
   
     

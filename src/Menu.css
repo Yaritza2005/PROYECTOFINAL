@@ -6,7 +6,7 @@ menu {
   .menu-hamburguesa {
     width: 0;
     height: 100%;
-    background-color: #ff69b4; /* Fondo rosa (por ejemplo) */
+    background-color: #ff69b4; 
     position: fixed;
     top: 0;
     left: 0;
@@ -24,11 +24,11 @@ menu {
 .boton-hamburguesa {
     font-size: 30px;
     cursor: pointer;
-    color: #000; /* Texto en color negro */
+    color: #000; 
     position: fixed;
     top: 10px;
-    left: 10px; /* Ajusta la posición izquierda según tu preferencia */
-    z-index: 2; /* Asegura que esté por encima del contenido */
+    left: 10px;
+    z-index: 2;
   }
   
   
@@ -37,7 +37,7 @@ menu {
     top: 10px;
     right: 10px;
     cursor: pointer;
-    color: #000; /* Texto en color negro */
+    color: #000; 
   }
   
   .menu-lista {
@@ -51,32 +51,32 @@ menu {
   
   .menu-lista a {
     text-decoration: none;
-    color: #fff; /* Texto en color blanco */
+    color: #fff; 
     display: block;
     font-size: 18px;
     transition: 0.2s;
   }
   
   .menu-lista a:hover {
-    background-color: #000; /* Fondo en color negro */
-    color: #fff; /* Texto en color blanco al pasar el mouse */
+    background-color: #000;
+    color: #fff; 
   }
 
   /* Estilos para el botón de menú hamburguesa */
 .boton-hamburguesa {
     font-size: 30px;
     cursor: pointer;
-    color: #000; /* Texto en color negro */
+    color: #000; 
     position: fixed;
     top: 10px;
-    left: 10px; /* Ajusta la posición izquierda según tu preferencia */
-    z-index: 2; /* Asegura que esté por encima del contenido */
+    left: 10px; 
+    z-index: 2; 
   }
   
   /* Menu.css */
 .imagen-perro {
-    width: 50px; /* Ancho deseado */
-    height: 50px; /* Altura automática para mantener la proporción original */
+    width: 50px; 
+    height: 50px; 
   }
   
   

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Menu.css';
-import perro from './perro.jpg.jpeg'; // Reemplaza 'perro.jpg.jpeg' con la ruta correcta de tu imagen
+import perro from './perro.jpg.jpeg'; 
 
 function Menu() {
   const [menuAbierto, setMenuAbierto] = useState(false);
@@ -10,7 +10,7 @@ function Menu() {
   };
 
   return (
-    <div className="menu"> {/* La clase "menu" ya tiene un fondo rosa */}
+    <div className="menu"> 
       <button onClick={toggleMenu} className="boton-hamburguesa">
         ☰
       </button>
@@ -24,7 +24,7 @@ function Menu() {
           <li><a href="#">Configuración</a></li>
         </ul>
       </div>
-      <div className="center-screen"> {/* Contenedor para centrar en pantalla */}
+      <div className="center-screen"> 
         <header className="cabecera">
           <h1>¡Bienvenido a my pet!</h1>
         </header>
@@ -34,7 +34,7 @@ function Menu() {
             src={perro}
             alt="Mi imagen de perro"
             className="imagen-mypet"
-            style={{ width: '250px', height: 'auto' }} // Ajusta el tamaño aquí
+            style={{ width: '250px', height: 'auto' }} 
           />
         </section>
       </div>
