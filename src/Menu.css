@@ -1,83 +1,80 @@
-menu {
-    display: flex;
-    background-color: pink;
-  }
-  
-  .menu-hamburguesa {
-    width: 0;
-    height: 100%;
-    background-color: #ff69b4; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: 0.3s;
-    overflow-x: hidden;
-    padding-top: 60px;
-    z-index: 1;
-  }
-  
-  .menu-hamburguesa.abierto {
-    width: 250px;
-  }
-  
-   /* Estilos para el botón de menú hamburguesa */
-.boton-hamburguesa {
-    font-size: 30px;
-    cursor: pointer;
-    color: #000; 
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
-  }
-  
-  
-  .cerrar-menu {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    color: #000; 
-  }
-  
-  .menu-lista {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .menu-lista li {
-    padding: 10px;
-  }
-  
-  .menu-lista a {
-    text-decoration: none;
-    color: #fff; 
-    display: block;
-    font-size: 18px;
-    transition: 0.2s;
-  }
-  
-  .menu-lista a:hover {
-    background-color: #000;
-    color: #fff; 
-  }
 
-  /* Estilos para el botón de menú hamburguesa */
+/* Estilos generales del menú */
+.menu {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: pink;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+/* Estilos del menú hamburguesa */
+.menu-hamburguesa {
+  width: 0;
+  height: 100%;
+  background-color: #ff69b4; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  overflow-x: hidden;
+  padding-top: 60px;
+  z-index: 1;
+}
+
+.menu-hamburguesa.abierto {
+  width: 250px;
+}
+
+/* Estilos para el botón de menú hamburguesa */
 .boton-hamburguesa {
-    font-size: 30px;
-    cursor: pointer;
-    color: #000; 
-    position: fixed;
-    top: 10px;
-    left: 10px; 
-    z-index: 2; 
-  }
-  
-  /* Menu.css */
+  font-size: 30px;
+  cursor: pointer;
+  color: #000; 
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+}
+
+.cerrar-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000; 
+}
+
+/* Estilos de la lista de menú */
+.menu-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-lista li {
+  padding: 10px;
+}
+
+.menu-lista a {
+  text-decoration: none;
+  color: #fff; 
+  display: block;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.menu-lista a:hover {
+  background-color: #000;
+  color: #fff; 
+}
+
+/* Otras clases específicas */
 .imagen-perro {
-    width: 50px; 
-    height: 50px; 
-  }
+  width: 50px; 
+  height: 50px; 
+}
+
   
   
   
