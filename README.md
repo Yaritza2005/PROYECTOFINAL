@@ -1,3 +1,29 @@
+![Login](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/Captura%20de%20pantalla%20(24).png)
+![Menú Hamburguesa](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/Captura%20de%20pantalla%20(20).png)
+![Pantalla Principal](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/Captura%20de%20pantalla%20(19).png)
+![primer modulo](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/ACCESORIOS.png)
+![segundo modulo](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/TIPSPARAELCUIDADO.png)
+![Tercer modulo](https://github.com/Yaritza2005/PROYECTOFINAL/blob/main/TIPOS%20DE%20RAZAS.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
